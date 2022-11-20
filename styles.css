@@ -1,0 +1,97 @@
+/*reset margin, padding*/
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.red {
+    border: 1px solid red;
+}
+.green {
+    border: 1px solid green;
+}
+.header {
+    height: 865px;
+    /* width: 100%; -> lấy toàn bộ chiều dài -> tạo ra thanh cuộn ngang */
+    /* background: url('./banner.jpg') center center no-repeat; */
+    background-image: url('./banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;    
+}
+.about-sign_in {
+    height: 80px;
+    width: 100%;
+    text-align: right;    
+}
+.about, 
+.sign-in {
+    text-decoration: none;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.sign-in {
+    margin-right: 100px;
+    margin-left: 25px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+.logo {
+    height: 295px;
+    /* background: url(./hapoERP.png) center center no-repeat; */
+    margin-top: 40px;
+    text-align: center!important;
+} 
+.hapo-erp {
+    margin: 165px 0px 53px;
+    height: 77px;
+    width: 256px;
+}
+.text {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+}
+.btn-start-now {
+    text-align: center;
+}
+.header .btn-start-now button {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-top: 25px;
+    height: 40px;
+    width: 144px;
+    cursor: pointer;
+}
+.content-center {
+    /* height: 70px; parent's height = All plus child's parent */
+    /* border: 1px solid red; */
+    display: flex;
+}
+.left, 
+.right, 
+.center {
+    width: 33%;
+    /* display: inline-block; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+span {
+    display: block;
+    font-size:20px;
+}
+img {
+    height:50px;
+    width:50px;
+}
+.text span {
+    color: green;
+}
+
+
